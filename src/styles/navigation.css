@@ -1,0 +1,26 @@
+.navigation-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding-left: 10%;
+}
+
+.navigation-item{
+    text-align: center;
+}
+
+.navigation-item p{
+    margin: 0;
+    color: #F9AF56;
+}
+
+.navigation-img{
+    width: 20px;
+    height: 20px;
+}
+
+@media screen and (max-width: 375px){
+    .navigation-item p{
+        display: none;
+    }
+}
